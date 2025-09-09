@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-public class customer {
+public class Customer {
 	private int cid;
 	private String name;
 	

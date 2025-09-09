@@ -9,7 +9,7 @@ public class SpringqualifierApplication {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext var=SpringApplication.run(SpringqualifierApplication.class,args);
-		customer c1=var.getBean(Customer.class);
+		Customer c1=var.getBean(Customer.class);
 		c1.order();
 	}
 
